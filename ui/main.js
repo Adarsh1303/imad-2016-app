@@ -6,11 +6,11 @@ var marginleft=0;
 
 function moveRight()
 {
-    marginleft=marginleft + 10;
+    marginleft=marginleft + 1;
     element.style.marginLeft = marginleft + 'px';
 }
 
 element.onclick = function(){
-    var interval = setInterval(moveRight,100);
+    var interval = setInterval(moveRight,50);
 }
 
