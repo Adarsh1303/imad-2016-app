@@ -10,7 +10,7 @@ function moveRight()
     element.style.marginLeft = marginleft + 'px';
 }
 
-element.onClick = function(){
+element.onclick = function(){
     var interval = setInterval(moveRight,100);
 }
 
